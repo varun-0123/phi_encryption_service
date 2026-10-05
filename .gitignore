@@ -1,0 +1,16 @@
+# Python environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Local SQLite databases & instances
+*.db
+*.sqlite3
+instance/
+
+# Secret Key Management Store (Never commit raw encryption keys)
+kms_keystore.json
+
+# Environment variables
+.env
